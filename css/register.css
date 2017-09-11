@@ -1,0 +1,57 @@
+body{
+	background: #f2f2f2;
+}
+
+.login{
+	padding:0 0.3rem;
+}
+.box{
+	background:#fff;
+	margin:0.32rem auto 0.5rem;
+	border-radius: 10px;
+	padding:0 0.45rem;
+	position: relative;
+	
+}
+.line{
+	border-bottom:1px solid #F2F2F2;
+	height:0.9rem;
+	line-height: 0.9rem;
+}
+
+#code{
+	width:4rem;
+	float:left;
+}
+
+#btn1{
+	display:inline-block;
+	background:#dfdfdf;
+	color:#a4a4a4;
+	line-height:0.6rem;
+	margin-top:0.15rem;
+	float:right;
+	border-radius: 10px;
+	padding:0 0.1rem;
+}
+input{
+	border:none;
+	height:0.8rem;
+	line-height: 0.8rem;
+	width:100%;
+	font-size:0.3rem;
+	outline: none;
+}
+.btn{
+	background:#a4a4a4;
+	color:#fff;
+	line-height: 0.88rem;
+	outline: none;
+	width:100%;
+	border:none;
+	font-size:0.32rem;
+	border-radius: 10px;
+}
+.noborder{
+	border:none;
+}

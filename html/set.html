@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>设置</title>
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width,minimum-scale=0.5,maximum-scale=1.0,initial-scale=1.0,user-scalable=no" />
+		<script src="../js/rem.js"></script>
+		<link rel="stylesheet" href="../css/reset.css" />
+		<link rel="stylesheet" href="../assets/css/amazeui.min.css" />
+		<link rel="stylesheet" href="../css/common.css" />
+		<style type="text/css">
+			.content {
+				font-size: 0.34rem;
+				color: #333333;
+				margin-top: 0.22rem;
+				padding: 0 0.3rem;
+				background: #fff;
+			}
+			
+			.content li {
+				line-height: 1.06rem;
+				border-bottom: 2px solid #e4e4e4;
+				background: url(../images/a.png) no-repeat right center;
+			}
+			
+			.content li a {
+				color: #262626;
+			}
+			
+			.content .nobg {
+				background: none;
+				line-height: 1.34rem;
+			}
+			
+			.content .noborder {
+				border: none;
+			}
+			
+			.nickimg {
+				float: right;
+				width: 1.1rem;
+				height: 1.1rem;
+				overflow: hidden;
+				margin-top: 0.12rem;
+			}
+			
+			.nickimg img {
+				width: 100%;
+				height: 100%;
+			}
+			
+			.content a {
+				display: block;
+			}
+			/*模态框*/
+			.close{
+				font-size:0.32rem;
+				color:#02AF82;
+				line-height: 0.6rem;
+			}
+			.am-list li{
+				font-size:0.32rem;
+				line-height: 0.9rem;
+			}
+		</style>
+	</head>
+
+	<body>
+		<!--头部-->
+		<header>
+			<span class="back">
+				<img src="../images/fan@2x.png"/>
+			</span> 设置
+		</header>
+		<!--中间内容-->
+		<session class="warp">
+			<ul class="clear content">
+				<li class="clear nobg" data-am-modal="{target: '#my-actions'}">
+					<span>头像</span>
+					<span class="nickimg">
+						<img src="../images/touxiang2@2x.png"/>
+					</span>
+				</li>
+				<li class="clear">
+					<a href="nickname.html"><span>昵称</span></a>
+				</li>
+				<li class="clear">
+					<a href="repass.html"><span>修改密码</span></a>
+				</li>
+				<li class="noborder">
+					<a href="addCard.html"><span>银行卡管理（支持支付宝、微信）</span></a>
+				</li>
+			</ul>
+		</session>
+		<!--模态框-->
+		<div class="am-modal-actions" id="my-actions">
+			<div class="am-modal-actions-group">
+				<ul class="am-list">
+					<li>拍照上传</li>
+						
+					<li>
+						相册上传
+					</li>
+				</ul>
+			</div>
+			<div class="am-modal-actions-group">
+				<button class="am-btn am-btn-block close" data-am-modal-close>取消</button>
+			</div>
+		</div>
+		<script src="../js/jquery-2.2.3.min.js"></script>
+		<script src="../assets/js/amazeui.min.js"></script>
+		<script src="../js/common.js"></script>
+	</body>
+</html>

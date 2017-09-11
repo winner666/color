@@ -1,0 +1,74 @@
+	
+	/*头部*/
+	body{
+		background: #F2F2F2;
+	}
+	header {
+		
+		background: #02af82;
+		text-align: center;
+		line-height: 1rem;
+		position: fixed;
+		top: 0;		
+		font-size: 0.4rem;
+		color: #fff;
+		width: 100%;z-index:20;
+	}
+	a:active{
+		background:none;
+	}
+	.back {
+		position: absolute;
+		left: 0.3rem;
+	}
+	
+	.back img {
+		width: 0.2rem;
+		height: 0.4rem;
+		vertical-align: middle;
+		display: inline-block;
+	}
+	.sing{
+		position: absolute;
+		right: 0.3rem;
+	}
+	.sing img{
+		width:0.5rem;
+		height: 0.5rem;
+		vertical-align: middle;
+		display: inline-block;
+	}
+	.warp{
+	overflow: auto;
+	display: block;
+	padding:1rem 0 1.1rem;
+	
+}
+footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	border-top:1px solid #F2F2F2 ;
+	padding:0.1rem 0;
+	background: #fff;
+}
+footer li{
+	float:left;
+	width:33.33%;
+}
+footer span img{
+	margin:0 auto;
+	width:0.42rem;
+	height: 0.5rem;
+}
+footer span{
+	font-size:0.27rem;
+	display: block;
+	text-align: center;
+}
+.active{
+	color:#02af82;
+}
+
+
+/**/

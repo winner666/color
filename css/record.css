@@ -1,0 +1,38 @@
+.top ul{
+	width:100%;
+	height: 0.9rem;
+	font-size:0.36rem;
+	background:#118f6e;
+	color:#fff;
+}
+.top li{
+	float:left;
+	width:24.7%;
+	text-align: center;
+	line-height: 0.6rem;
+	border-right:1px solid #1ba581;
+	margin-top:0.15rem;
+}
+.top .noline{
+		border:none;
+	}
+.table li{
+	float: left;
+}
+.table ul{
+	width:100%;
+	height: 0.9rem;
+	font-size:0.34rem;
+	border-bottom:1px solid #e6e6e6;
+
+}
+.table li{
+	float:left;
+	width:24.7%;
+	text-align: center;
+	line-height: 0.9rem;
+	border-right:1px solid #e6e6e6;
+}
+.table .noline{
+		border-right:none;
+	}

@@ -1,0 +1,56 @@
+body{
+	background: #f2f2f2;
+	
+}
+
+.box{
+	padding:0 0.3rem;
+	background: #fff;
+	margin-top:0.2rem;
+}
+.line{
+	background:#fff;		
+	line-height: 1rem;
+	position: relative;
+	border-bottom: 1px solid #ccc;	
+	
+}
+
+.line label{
+	font-size:0.3rem;
+	display: inline-block;
+}
+input{
+	border:none;
+	height:0.8rem;
+	line-height: 0.8rem;
+	outline: none;
+	font-size:0.3rem;
+	width:50% ;
+	display: inline-block;
+}
+.line{
+	
+}
+.noborder{
+	border:none;
+}
+
+.btn{
+	background:#02af82;
+	color:#fff;
+	line-height: 0.88rem;
+	outline: none;
+	width:70%;
+	border:none;
+	display:block;
+	margin:0.54rem auto;
+	font-size:0.35rem;
+	border-radius: 10px;
+}
+.prompt{
+	margin-left:0.3rem;
+	line-height:0.4rem;
+	color:#b2b1b1;
+}
+

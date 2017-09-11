@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>添加银行卡</title>
+		 <meta name="keywords" content=""/>
+    	<meta name="description" content=""/>
+    	<meta name="viewport" content="width=device-width,minimum-scale=0.5,maximum-scale=1.0,initial-scale=1.0,user-scalable=no" />
+    	<script src="../js/rem.js"></script>
+    	<link rel="stylesheet" href="../css/reset.css" />
+    	<link rel="stylesheet" href="../css/common.css" />
+    	<style>
+    		body{background:#f2f2f2;}
+    		.select_box{margin:0 0.3rem;line-height: 0.9rem;font-size:0.3rem;}   		
+    		.word{float:left;}
+    		.select{float:right;}
+		    input{
+			border:none;
+			height:0.9rem;
+			line-height: 0.9rem;
+			width:100%;
+			font-size:0.3rem;
+			outline: none;
+			}
+			.card{padding:0 0.3rem;background:#fff;}
+			.line:after {
+			    content: '';
+			    display: block;
+			    position: absolute;
+			    width: 100%;
+			    left: 0;
+			    bottom: 0;
+			    height: 1px;
+			    background-color: #c8c7cc;
+			    -webkit-transform: scaleY(0.5);
+			    transform: scaleY(0.5);
+			    z-index: 9999;
+			    position: relative;
+				}
+				.btn{
+				background:#02af82;
+				color:#fff;
+				line-height: 0.88rem;
+				outline: none;
+				width:5.5rem;
+				border:none;
+				font-size:0.32rem;
+				border-radius: 10px;
+				display:block;
+				margin:0 auto;
+				margin-top:0.5rem;
+			}
+    	</style>
+	</head>
+	<body>
+		<header>
+			<span class="back">
+				<img src="../images/fan@2x.png"/>
+			</span> 添加银行卡
+		</header>
+		<session class="warp">
+			<div class="select_box clear">
+			<span class="word">请选择类型</span>
+			<span class="select">></span>
+		</div>
+		<div class="card">
+			<ul>
+				<li class="line"><input type="text" placeholder="姓名"/></li>
+				<li class="line"><input type="text" placeholder="微信账号" /></li>
+				<li><input type="text" placeholder="确认微信账号"/></li>
+			</ul>
+		</div>
+		<button class="btn">提交</button>
+		</session>
+		
+	</body>
+	<script src="../js/jquery-2.2.3.min.js"></script>
+	
+	<script src="../js/common.js"></script>
+</html>

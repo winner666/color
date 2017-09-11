@@ -1,0 +1,81 @@
+.rule{
+	position: absolute;
+	right: 0.3rem;
+	color:#fff;
+	font-size:0.32rem;
+}
+.top{
+	background: #fff;
+	padding: 0.3rem 0 0.5rem 0.6rem;
+}
+.weiChat{
+	float:left;
+	width: 15%;
+}
+.weiChat img{
+	
+	width:1.68rem ;
+	height: 1.68rem;
+}
+.word{
+	width: 85%;
+	float: left;
+	text-align: center;
+	color:#666666;
+}
+.big{
+	font-size:0.42rem;
+	
+	margin-top:0.2rem;
+}
+.small{
+	font-size:0.3rem;
+	margin-top:0.1rem;
+}
+.title{
+	background:#118F6E;
+	color:#fff;
+	font-size:0.34rem;
+	text-align: center;
+	height: 1.35rem;
+	line-height: 1.35rem;
+}
+.title li{
+	float:left;
+	width: 33%;
+	border-right: 1px solid #02AF00;
+}
+.title .noborder{
+	border-right: none;
+}
+.detail ul{
+	background: #fff;
+	border-bottom: 1px solid #EDEDED;
+}
+.detail li{
+	float:left;
+	width: 33%;
+	border-right: 1px solid #F9F9F9;
+	
+	height: 1.35rem;
+	line-height: 1.35rem;
+	text-align: center;
+	font-size:0.32rem;
+}
+.detail .noborder{
+	border-right: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

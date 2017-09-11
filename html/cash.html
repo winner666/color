@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>提现</title>
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width,minimum-scale=0.5,maximum-scale=1.0,initial-scale=1.0,user-scalable=no" />
+		<script src="../js/rem.js"></script>
+		<link rel="stylesheet" href="../css/reset.css" />
+		<link rel="stylesheet" href="../css/common.css" />
+		<style type="text/css">
+			body {
+				background: #f2f2f2;
+				
+			}
+			
+			.login{
+				margin: 0.25rem 0.3rem 0.6rem;
+					background: #fff;
+					border-radius:10px;
+					
+			}
+			.box .line {
+			
+				margin:0 0.3rem;
+				position: relative;
+				line-height:0.9rem;
+			}
+			
+			.line label {
+				font-size: 0.32rem;
+			}
+			
+			input {
+				border: none;
+				height: 0.9rem;
+				line-height: 0.9rem;
+				outline: none;
+				font-size: 0.32rem;
+				width:4rem;
+			}
+									
+			.line1:after {
+				content: '';
+				display: block;
+				position: absolute;
+				width: 100%;
+				left: 0;
+				bottom: 0;
+				height: 1px;
+				background-color: #c8c7cc;
+				-webkit-transform: scaleY(0.5);
+				transform: scaleY(0.5);
+				z-index: 999;
+			}
+			
+			.btn {
+				background: #02af82;
+				color: #fff;
+				line-height: 0.88rem;
+				outline: none;
+				width: 70%;
+				border: none;
+				display: block;
+				margin: 0.54rem auto;
+				font-size: 0.35rem;
+				border-radius: 10px;
+			}
+			#select{
+				display: inline-block;
+				border:none;
+				line-height:0.9rem;
+				height:0.9rem;
+				width:4.5rem;
+			}
+			#select option{
+				height:0.9rem;
+				line-break: 0.9rem;
+			}
+		
+		</style>
+	</head>
+
+	<body>
+		<header>
+			<span class="back">
+				<img src="../images/fan@2x.png"/>
+			</span>
+			提现
+		</header>
+		<session class="warp">
+		<div class="login">
+			<ul class="box">
+				<li class="line line1">
+					<label for="phone">提现金额：</label>
+					<input type="text" id="phone" placeholder="请输入提现金额" />
+				</li>
+				<li class="line clear line2">
+					<label for="code">提现渠道：</label>
+					<select name="select-choice-1" id="select">
+						<option value="">Standard: 7 day</option>
+						<option value="">Rush: 3 days</option>
+						<option value="">Express: next day</option>
+						<option value="">Overnight</option>
+					</select>
+
+				</li>
+			</ul>
+				</div>
+			<button class="btn">申请提现</button>
+			</session>	
+	</body>
+	<script src="../js/jquery-2.2.3.min.js"></script>
+	<script src="../js/common.js"></script>
+
+</html>

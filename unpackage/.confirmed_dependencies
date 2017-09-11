@@ -1,0 +1,70 @@
+{
+	"index.html": {
+		"resources": [
+			"images/pk10@2x.png",
+			"images/jing@2x.png",
+			"images/wode@2x.png",
+			"images/kaijiang@2x.png",
+			"images/page1@2x.png",
+			"js/jquery-2.2.3.min.js",
+			"images/banner@2x.png",
+			"js/rem.js",
+			"html/lottery.html",
+			"css/idangerous.swiper2.7.6.css",
+			"js/idangerous.swiper2.7.6.min.js",
+			"css/index.css",
+			"css/common.css",
+			"images/shishicai@2x.png",
+			"images/laba@2x.png",
+			"images/pcdandan@2x.png",
+			"css/reset.css",
+			"html/personal.html"
+		],
+		"refer": [
+			"html/lottery.html",
+			"html/personal.html"
+		]
+	},
+	"html/personal.html": {
+		"resources": [
+			"images/wode1@2x.png",
+			"images/baobiao@2x.png",
+			"images/fanshui@2x.png",
+			"images/chongzhi@2x.png",
+			"images/tixian@2x.png",
+			"images/zhongjiang@2x.png",
+			"images/kefu@2x.png",
+			"css/personal.css",
+			"images/tuiguang@2x.png",
+			"images/arrow@2x.png",
+			"images/yue@2x.png",
+			"images/touxiang1@2x.png",
+			"images/banben@2x.png",
+			"index.html",
+			"html/lottery.html",
+			"images/kaijiang@2x.png",
+			"js/jquery-2.2.3.min.js",
+			"images/page@2x.png",
+			"js/rem.js",
+			"css/common.css",
+			"css/reset.css"
+		],
+		"refer": [
+			"index.html",
+			"html/lottery.html"
+		]
+	},
+	"html/lottery.html": {
+		"resources": [
+			"css/lottery.css",
+			"images/page@2x.png",
+			"html/personal.html",
+			"images/kaijiang1@2x.png",
+			"index.html"
+		],
+		"refer": [
+			"html/personal.html",
+			"index.html"
+		]
+	}
+}

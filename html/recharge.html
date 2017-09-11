@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>充值</title>
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width,minimum-scale=0.5,maximum-scale=1.0,initial-scale=1.0,user-scalable=no" />
+		<script src="../js/rem.js"></script>
+		<link rel="stylesheet" href="../css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../css/common.css" />
+		<style>
+			.box{
+				background: #fff;
+				margin:0.3rem 0.3rem 0;
+				
+				border-radius: 10px;
+			}
+			
+			.line{
+				font-size: 0.3rem;
+				line-height: 0.9rem;
+				margin:0 0.3rem;
+				position: relative;
+			}
+			
+			input {
+				border: none;
+				height: 0.9rem;
+				line-height: 0.9rem;
+				outline: none;
+				font-size: 0.3rem;
+			}
+			
+			.line1:after {
+				
+				content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    background-color: #c8c7cc;
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+    z-index:999;
+			}
+			.title{margin-left:0.3rem;color:#999999;line-height: 0.8rem;}
+			.card{background: #fff;border-radius:10px;margin:0 0.3rem;padding:0 0.3rem;}
+			.card li{line-height: 0.9rem;border-bottom: 1px solid #F2F2F2;font-size:0.3rem;}
+			.word{float:left;margin-left:0.5rem;display: block;}
+			.icon{float: right;width:0.3rem;height: 0.3rem;border-radius: 50%;border:1px solid #ccc;margin-top:0.25rem;}
+			.card li:nth-child(1){background:url(../images/weixin@2x.png) no-repeat left center;background-size:0.4rem 0.4rem ;}
+			.card li:nth-child(2){background:url(../images/zhifubao@2x.png) no-repeat left center;background-size:0.4rem 0.4rem ;}
+			.card li:nth-child(3){background:url(../images/yinhangka@2x.png) no-repeat left center;background-size:0.4rem 0.4rem ;}
+			.wei{text-align: center;line-height: 1rem;color:#666666;font-size:0.3rem;}
+			.card .noborder{border:none;}
+			.active{background: url(../images/yuan1@2x.png);background-size:100% 100% ;}
+			.btn{
+	background:#02af82;
+	color:#fff;
+	line-height: 0.88rem;
+	outline: none;
+	width:70%;
+	border:none;
+	display:block;
+	margin:0 auto;
+	font-size:0.35rem;
+	border-radius: 10px;
+}
+		</style>
+	</head>
+	<body>
+		<header>
+			<span class="back">
+				<img src="../images/fan@2x.png"/>
+			</span> 财务报表
+		</header>
+		<session class="warp">
+			<ul class="box">
+				<li class="line line1">
+					<label for="phone">当前密码：</label>
+					<input type="text" id="phone" placeholder="请输入手机号码"/>
+				</li>
+				<li class="line">
+					<label for="code">输入新密码：</label>
+					<input type="text" name="" id="code" placeholder="输入新密码" />
+					
+				</li>
+			</ul>
+			<div class="content_box">
+				<div class="title">
+					请选择充值方式
+				</div>
+				<div class="content">
+					<ul class="card">
+						<li class="clear"><span class="word">微信支付</span><span class="icon active"></span></li>
+						<li class="clear"><span class="word">支付宝支付</span><span class="icon"></span></li>
+						<li class="clear noborder"><span class="word">银行卡快捷支付<em class="light">暂未开通</em></span><span class="icon"></span></li>
+					</ul>
+				</div>
+			</div>
+			<div class="anniu">
+				<p class="wei">微信号:zsyl4043</p>
+				<button class="btn">复制微信账号</button>
+			</div>
+		</session>
+		<script src="../js/jquery-2.2.3.min.js"></script>
+		<script src="../js/common.js"></script>
+	</body>
+</html>

@@ -1,0 +1,104 @@
+
+.top{
+	padding:0.3rem;
+	background: #fff;
+}
+.head{
+	overflow: hidden;
+	border-radius: 50%;
+	width:1.51rem;
+	height: 1.51rem;
+	float:left;
+	border:5px solid #E7E7E7 ;
+	
+}
+.head img{
+	width:100%;
+	height:100%;
+}
+.nickname_box{
+	float:left;
+	color:#4a4a4a;
+	font-size:0.32rem;
+	margin-left:0.3rem;
+}
+.next{
+	float:right;
+}
+.nickname{
+	line-height:1rem;
+}
+.id{
+	line-height:0.4rem;
+}
+.next{
+	margin-top:0.4rem;
+	width: 0.44rem;
+	height: 0.8rem;
+	background: url(../images/arrow@2x.png) no-repeat 0 center;
+	background-size:100% 100% ;
+} 
+.content{
+	margin-top:0.2rem;
+	background: #fff;
+	text-align: center;
+}      
+.list{
+	width: 33%;
+	border-right: 1px solid #f2f2f2;
+	border-bottom: 1px solid #F2F2F2;
+	float:left;
+
+}
+.list dt{
+	padding-top:0.4rem;
+}
+.list dt img{
+	width: 1.4rem;
+	height:1.4rem;
+	margin:0 auto;
+}
+.list dd{
+	color:#383838;
+	font-size:0.32rem;
+	line-height: 0.8rem;
+}
+.noborder{
+	border-right: none;
+}
+.off{
+	margin:0.2rem 0 ;
+	border-bottom: 0.2rem solid #f2f2f2;
+}
+.off a{
+	display: block;
+	width: 100%;
+	background: #fff;	
+	text-align: center;
+	line-height: 0.88rem;
+	color:#f00;
+	font-size:0.34rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

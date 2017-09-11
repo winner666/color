@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>修改密码</title>
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width,minimum-scale=0.5,maximum-scale=1.0,initial-scale=1.0,user-scalable=no" />
+		<script src="../js/rem.js"></script>
+		<link rel="stylesheet" href="../css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../css/common.css" />
+		<link rel="stylesheet" type="text/css" href="../css/repass.css" />
+		
+		
+	</head>
+	<body>
+		<header>
+			<span class="back">
+				<img src="../images/fan@2x.png"/>
+			</span>修改密码
+		</header>
+		<session class="warp">
+			<div class="login">
+				<ul class="box">
+					<li class="line line1">
+						<label for="phone">当前密码：</label>
+						<input type="text" id="phone" placeholder="请输入当前密码" />
+					</li>
+					<li class="line clear">
+						<label for="pass">输入新密码：</label>
+						<input type="password" name="" id="pass" placeholder="输入新密码" />
+
+					</li>
+					<li class="line noborder">
+						<label for="repass">确认新密码：</label>
+						<input type="password" id="repass" placeholder="确认新密码" />
+					</li>
+
+				</ul>
+				<button class="btn">确定</button>
+				<div class="prompt">
+					<p>提示：</p>
+					<p>密码由6至16个字符组成</p>
+					<p>修改密码后两个小时后不能取款</p>
+				</div>
+			</div>
+			
+		</session>
+
+	</body>
+	<script src="../js/jquery-2.2.3.min.js"></script>	
+	<script src="../js/common.js"></script>
+	<script>
+		var res=/^[0-9a-zA-Z_#]{6,16}$/
+		var pass;//获取修改后第一次密码；
+		var repass;//确认密码
+		$('#pass').blur(function(){
+			pass=$('#pass').val();		
+		})
+		
+		$('#repass').blur(function(){
+			repass=$(this).val();
+			if(repass!=pass){
+				alert('请重新输入密码')
+				$(this).val('');
+			}
+		})
+		//点击确定按钮
+		$('.btn').on('click',function(){
+			
+		})
+	</script>
+</html>

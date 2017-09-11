@@ -1,0 +1,119 @@
+body{
+	background: #fff;
+}
+
+.top{
+	padding:0.13rem 0.3rem 0;
+	background:#f2f2f2;
+	height:0.58rem;
+	
+}
+.line{
+	color:#02af82;
+	font-size:0.3rem;
+}
+.lottey{
+	margin:0.04rem 0.3rem 0;
+	
+	
+}
+.list{
+	border-bottom:1px solid #F2F2F2;
+}
+.title_box{
+	line-height: 0.86rem;	
+}
+.title{
+	color:#333333;
+	font-size:0.36rem;
+	margin-right:0.3rem;
+}
+.periods{
+	font-size:0.28rem;
+	color:#777777;
+	
+}
+.data li{
+	float:left;
+	width:25%;
+	text-align: center;
+	font-size:0.26rem;
+	color:#555555;
+}
+.data li:nth-child(1){
+	width:20%;
+}
+.data li:nth-child(2){
+	width:35%;
+}
+.data li:nth-child(3){
+	width:20%;
+}
+.data li:nth-child(5){
+	width:20%;
+}
+.data li:nth-child(6){
+	width:35%;
+}
+.data li:nth-child(7){
+	width:20%;
+}
+.time{
+	font-size:0.3rem;
+	color:#383838;
+	margin:0.25rem 0;
+}
+.num{
+	margin:0.25rem 0;
+}
+.num span{
+	color:#fff;
+	display: inline-block;
+	width:0.36rem;
+	height:0.36rem;
+	background:#e10000;
+	text-align: center;
+	line-height: 0.36rem;
+	border-radius: 50%;
+}
+.sum{
+	margin:0.25rem 0;
+}
+.king{
+	margin:0.25rem 0;
+}
+.king span{
+	display: inline-block;
+	color:#fff;
+	width:0.36rem;
+	height:0.36rem;
+	text-align: center;
+	line-height: 0.36rem;
+	border-radius: 50%;
+}
+.king span:nth-child(1){
+	background: #ff7800;
+}
+.king span:nth-child(2){
+	background: #02AF82;
+}.king span:nth-child(3){
+	background: #f63333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>昵称</title>
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width,minimum-scale=0.5,maximum-scale=1.0,initial-scale=1.0,user-scalable=no" />
+		<script src="../js/rem.js"></script>
+		<link rel="stylesheet" href="../css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../css/common.css" />
+		
+		<style>
+		header{position: relative;}
+			.cancle{position:absolute;left:0.3rem;font-size:0.32rem;}
+			.sure{position:absolute;right: 0.3rem;font-size:0.32rem;}
+			.content{background: #fff;margin-top:0.3rem;padding:0 0.3rem;line-height:1.08rem;}
+			input{
+	border:none;
+	height:1.08rem;
+	line-height:1.08rem;
+	width:100%;
+	font-size:0.35rem;
+	outline: none;
+}
+.warp{padding:0;}
+		</style>		
+	</head>
+	<body>		
+		<header>
+			<span class="cancle">取消</span>
+			昵称
+			<span class="sure">保存</span>
+		</header>
+		<session class='warp'>
+			<div class="content">
+				<input type="text" name="" id="reNickname" value="188****2781" />
+			</div>
+			
+		</session>
+		<script src="../js/jquery-2.2.3.min.js"></script>
+		<script src="../js/common.js"></script>
+	</body>
+	<script>
+			/*点击保存按钮*/
+			$('.sure').on('click',function(){
+				location.href="set.html"
+			})
+			/*点击取消按钮*/
+			$('.cancle').on('click',function(){
+				location.href="set.html"
+			})
+	</script>
+</html>
